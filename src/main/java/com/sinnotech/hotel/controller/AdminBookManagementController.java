@@ -61,7 +61,7 @@ public class AdminBookManagementController extends BaseController implements Pat
 	@RequestMapping(value = "list")
 	public String search(Paging page, OptionsDTO options, Model model, HttpServletRequest rq) {
 
-		// test 2
+		// test 3
 		logger.info("search() - START");
 		BookInfo bookInput;
 		// 페이징 처리
